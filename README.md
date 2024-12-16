@@ -2,12 +2,9 @@
   <img alt="Logo" src="https://i.ibb.co/zGSd4BW/logo-white.png" width="100" />
 </div>
 <h1 align="center">
-  <a href="https://mfelipesilva-v2.vercel.app/">🔗 Portfólio - Mauricio Felipe Silva</a>
+  <a href="https://mfelipesilva-v2.vercel.app/">🔗 Portfólio </a>
 </h1>
 </br>
-
-<img src="https://i.ibb.co/SP3jyn8/Screenshot-2024-06-26-135511.png"/>
-
 
 ## 🚀 Running in development mode
 
