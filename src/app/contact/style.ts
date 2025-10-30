@@ -2,44 +2,52 @@ import styled from "styled-components";
 
 export const Container = styled.main`
   display: flex;
-  min-height: 843px;
   width: 100%;
+  min-height: 800px;
   height: 84vh;
-  gap: 4em;
-  align-items: center;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 4em;
+  flex-direction: row;
 
-  & > section {
+  section {
     display: flex;
     max-width: 1243px;
     width: 65vw;
-    height: 100%;
-    gap: 4em;
-    align-items: center;
-    justify-content: space-between;
 
-    & > div:nth-child(1) {
+    gap: 4em;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+
+    > div:first-child {
       display: flex;
+      flex-direction: column;
+      gap: 1.2em;
       width: 35vw;
       max-width: 565px;
-      gap: 19px;
       padding-bottom: 18em;
-      flex-direction: column;
 
-      & > h1 {
-        font-size: clamp(25px, 3vw, 35px);
-        color: ${({ theme }) => theme.COLORS.SECONDARY};
+      h1 {
+        font-size: clamp(28px, 3.2vw, 38px);
         font-weight: 700;
-        text-transform: uppercase;
-      }
-      & > p {
         color: ${({ theme }) => theme.COLORS.SECONDARY};
-        font-size: clamp(14px, 3vw, 16px);
-        font-weight: 300;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin-bottom: 0.5em;
+        transition: color 0.3s ease;
+      }
 
-        & > span {
+      p {
+        font-size: clamp(15px, 3vw, 17px);
+        font-weight: 400;
+        line-height: 1.7;
+        color: ${({ theme }) => theme.COLORS.SECONDARY};
+        transition: color 0.3s ease;
+
+        span {
           font-weight: 600;
+          color: ${({ theme }) => theme.COLORS.PRIMARY};
           word-wrap: break-word;
         }
       }
@@ -50,17 +58,19 @@ export const Container = styled.main`
       }
     }
 
-    & > div:nth-child(2) {
+    > div:last-child {
+      flex: 1;
+
       @media (max-width: 1280px) {
         width: 100%;
       }
     }
 
     @media (max-width: 1280px) {
-      width: 450px;
+      width: 100%;
       gap: 3em;
-      align-items: start;
       flex-direction: column;
+      align-items: start;
       justify-content: center;
     }
 
@@ -71,8 +81,8 @@ export const Container = styled.main`
   }
 
   @media (max-width: 768px) {
-    height: 100%;
+    height: auto;
     padding: 6em 0;
-    align-items: start;
+    align-items: flex-start;
   }
 `;

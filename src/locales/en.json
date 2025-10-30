@@ -7,18 +7,41 @@
         "contact": "Contact"
       },
       "home": {
-        "title": "Mauricio F. Silva",
-        "subtitle": "Full-stack Developer"
+        "intro": "I'm,",
+        "name": "Mauricio F. Silva",
+        "subtitle": "Web Developer & Designer",
+        "button": "See Resume"
       },
       "about": {
         "title": "About me",
-        "text": "Hello, my name is Felipe! I am a Full-stack Developer and Web Designer since I was 16 years old. <br /> <br /> The interest in design and interfaces has always been present, resulting in a channel where I taught how to create banners, thumbnails and use features of various applications and programs. <br /> <br /> When I got to know the world of web development through a friend, right away I had the interest in the front-end part. Since then I started to study and create small projects that made me acquire more knowledge and passion for the area. <br /> <br /> Currently these are my main technologies:"
+        "text": "I’m a 19-year-old developer with a solid foundation in programming since 2021. I have hands-on experience with modern technologies such as <strong>React.js, Next.js, Node.js</strong> and <strong>TypeScript</strong>. My journey is marked by the creation of complete, responsive, and optimized web applications, focused on intuitive interfaces and clean code. <br /> <br /> Throughout my journey, I’ve developed skills in front-end technologies like <strong>Styled Components, HTML, CSS</strong> and <strong>JavaScript</strong>, as well as back-end expertise with <strong>PostgreSQL, MongoDB</strong> and <strong>Prisma ORM</strong>. I also have experience with version control tools such as <strong>Git</strong>, <strong>Clean Code</strong> practices, and the use of <strong>Figma</strong> for interface prototyping. <br /> <br /> I’m currently seeking opportunities to apply my skills, collaborate with teams, and contribute to challenging projects in the tech industry.",
+        "experience": {
+          "title": "Experience",
+          "freelancer": {
+            "title": "Freelancer",
+            "subtitle": "Front-end Developer",
+            "description": "I develop custom projects, such as landing pages and complete web applications, focusing on responsive design, performance and usability. Working directly with customers to understand their needs and deliver efficient, well-designed solutions."
+          },
+          "self-learning": {
+            "title": "Self-Learning",
+            "subtitle": "Web Developer",
+            "description": "Period dedicated to the realization of personal projects, exploring modern technologies and improving skills in web development. This moment was marked by self-learning, continuous study and practical experimentation to build a solid foundation in the area."
+          }
+        }
       },
       "projects": {
         "title": "Projects",
+        "description": {
+          "personspace": "Personal space to manage tasks, contacts and calendars.",
+          "woolshoes": "An e-commerce app to simulate a sneaker purchase.",
+          "letsTravel": "Website to search for travel and accommodation in different destinations.",
+          "cv9": "Landing page for a construction and architecture company.",
+          "esteban": "A professional landing page for an attorney.",
+          "coffeeYou": "Discover unique coffees and finalize your order with ease."
+        },
         "card": {
           "url": "Website",
-          "github": "Go to the Github."
+          "github": "Github."
         }
       },
       "contact": {
@@ -28,14 +51,18 @@
           "name": "Name",
           "email": "Email",
           "message": "Message",
+          "success": "Message sent successfully",
           "errors": {
             "name": "Please, add your name.",
             "minEmail": "The email is required.",
             "errorEmail": "Invalid email format.",
             "message": "Please, add a small text."
+          },
+          "button": {
+            "submit": "Submit",
+            "sending": "Sending"
           }
-        },
-        "button": "Submit"
+        }
       }
     }
   }

@@ -1,20 +1,15 @@
 import {
   IconCurriculum,
-  IconGithub,
+  IconGithub1,
   IconLinkedin,
   IconInstagram,
 } from "@/components/icons";
 
 export const iconsData = [
   {
-    id: "1",
-    url: "https://drive.google.com/file/d/1vTrsU9ZaAQF6QL3WCowMAbffhbz-ZIRl/view?usp=sharing",
-    icon: <IconCurriculum />,
-  },
-  {
     id: "2",
-    url: "https://github.com/MFelipeSilva",
-    icon: <IconGithub />,
+    url: "https://github.com/mutadofs",
+    icon: <IconGithub1 />,
   },
   {
     id: "3",

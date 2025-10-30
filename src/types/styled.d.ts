@@ -9,6 +9,7 @@ declare module "styled-components" {
       SECONDARY: string;
       TERTIARY: string;
       QUATERNARY: string;
+      QUINARY: string;
     };
   }
 }

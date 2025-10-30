@@ -7,18 +7,41 @@
         "contact": "Contato"
       },
       "home": {
-        "title": "Mauricio F. Silva",
-        "subtitle": "Desenvolvedor Full-stack"
+        "intro": "Eu sou,",
+        "name": "Mauricio F. Silva",
+        "subtitle": "Desenvolvedor & Designer Web",
+        "button": "Ver Currículo"
       },
       "about": {
         "title": "Sobre mim",
-        "text": "Olá, me chamo Felipe! Sou Desenvolvedor Full-stack e Web Designer desde os 16 anos. <br /> <br />O interesse por design e interfaces sempre foi presente, resultando até em um canal onde eu ensinava a criar banners, thumbnails e a utilizar funcionalidades de diversos aplicativos e programas. <br /> <br />Ao conhecer o mundo do desenvolvimento web por meio de um amigo, logo de cara tive o interesse na parte do front-end. Desde então eu começei a estudar e criar pequenos projetos que me fizeram adquirir mais conhecimento e paixão pela área. <br /> <br />Atualmente essas são minhas principais tecnologias:"
+        "text": "Sou desenvolvedor de 19 anos com uma sólida base em programação desde 2021. Tenho experiência prática em tecnologias modernas como <strong>React.js, Next.js, Node.js</strong> e <strong>TypeScript</strong>. Minha trajetória é marcada pela criação de aplicações web completas, responsivas e otimizadas, com foco em interfaces intuitivas e código limpo. <br /> <br /> Ao longo de minha jornada, desenvolvi habilidades em tecnologias front-end como <strong>Styled Components, HTML, CSS</strong> e <strong>JavaScript</strong>, além de competências back-end com <strong>PostgreSQL, MongoDB</strong> e <strong>Prisma ORM</strong>. Também tenho experiência com ferramentas de versionamento como <strong>Git</strong>, práticas de <strong>Clean Code</strong> e uso de <stong>Figma</strong> para prototipação de interfaces. <br /> <br /> Atualmente, estou em busca de oportunidades para aplicar minhas habilidades, colaborar com equipes e contribuir para projetos desafiadores no setor de tecnologia.",
+        "experience": {
+          "title": "Experiência",
+          "freelancer": {
+            "title": "Freelancer",
+            "subtitle": "Desenvolvedor Front-end",
+            "description": "Desenvolvo projetos personalizados, como landing pages e aplicações web completas, com foco em design responsivo, performance e usabilidade. Trabalho diretamente com clientes para entender suas necessidades e entregar soluções eficientes e bem projetadas."
+          },
+          "self-learning": {
+            "title": "Autoaprendizagem",
+            "subtitle": "Desenvolvedor Web",
+            "description": "Período dedicado à realização de projetos pessoais, explorando tecnologias modernas e aprimorando habilidades em desenvolvimento web. Esse momento foi marcado por autoaprendizado, estudo contínuo e experimentação prática para construir uma base sólida na área."
+          }
+        }
       },
       "projects": {
         "title": "Projetos",
+        "description": {
+          "personspace": "Espaço pessoal para gerenciar tarefas, contatos e agendas.",
+          "woolshoes": "Um aplicativo de e-commerce para simular uma compra de tênis.",
+          "letsTravel": "Site para buscar viagens e hospedagens em diferentes destinos.",
+          "cv9": "Landing page para uma empresa de construção e arquitetura.",
+          "esteban": "Uma landing page profissional para um advogado.",
+          "coffeeYou": "Descubra cafés únicos e finalize seu pedido com facilidade."
+        },
         "card": {
-          "url": "Site",
-          "github": "Ir para o Github."
+          "url": "Website",
+          "github": "Github"
         }
       },
       "contact": {
@@ -28,14 +51,18 @@
           "name": "Nome",
           "email": "Email",
           "message": "Mensagem",
+          "success": "Mensagem enviada com sucesso",
           "errors": {
             "name": "Por favor, adicione o seu nome.",
             "minEmail": "O email é obrigatório.",
             "errorEmail": "Formato de email inválido.",
             "message": "Por favor, adicione um pequeno texto."
+          },
+          "button": {
+            "submit": "Enviar",
+            "sending": "Enviando"
           }
-        },
-        "button": "Enviar"
+        }
       }
     }
   }

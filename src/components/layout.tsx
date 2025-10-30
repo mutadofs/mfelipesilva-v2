@@ -32,6 +32,12 @@ export const Layout = ({ children }: ILayoutProps) => {
       setTheme(JSON.parse(storedTheme));
     }
   }, []);
+
+  useEffect(() => {
+    // Aplicar atributo data-theme no body para melhor controle do tema
+    document.body.setAttribute("data-theme", theme.typeTheme);
+  }, [theme]);
+
   const toggleTheme = () => {
     const changedTheme = theme.typeTheme === "dark" ? light : dark;
     setTheme(changedTheme);
@@ -41,7 +47,7 @@ export const Layout = ({ children }: ILayoutProps) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <LayoutContainer>
+      <LayoutContainer data-theme={theme.typeTheme}>
         <Navbar theme={theme} toggleName={toggleTheme} />
         <motion.div
           variants={{

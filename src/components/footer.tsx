@@ -19,7 +19,7 @@ export const StyledFooter = styled.footer`
 
     & > span {
       font-size: 14px;
-      color: ${({ theme }) => theme.COLORS.SECONDARY};
+      color: ${({ theme }) => theme.COLORS.TERTIARY};
       font-weight: 300;
     }
 
@@ -29,24 +29,15 @@ export const StyledFooter = styled.footer`
       align-items: center;
       justify-content: center;
 
-      & > a:nth-child(1) > svg {
-        width: 20px;
-        height: 20px;
-      }
-
       & > a > svg {
         cursor: pointer;
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
         color: ${({ theme }) => theme.COLORS.TERTIARY};
 
         &:hover {
           color: #000;
         }
-      }
-      & > a:nth-child(4) > svg {
-        width: 24px;
-        height: 24px;
       }
     }
 
@@ -65,7 +56,7 @@ export const Footer = () => {
   return (
     <StyledFooter>
       <div>
-        <span>© Copyright 2024 - Mauricio Felipe Silva</span>
+        <span>© / {new Date().getFullYear()} - mutadofs</span>
         <div>
           {iconsData.map((icon) => (
             <Link key={icon.id} href={icon.url} target="_blank">
