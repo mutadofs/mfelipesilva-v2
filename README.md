@@ -46,6 +46,11 @@ npm run build
 npm run start
 Open [http://localhost:3000](http://localhost:3000) in the browser.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 63d6691 (Update README.md)
 ---
 
 ## 📦 Project Structure
@@ -84,6 +89,60 @@ src/
 | White        | `#FFFFFF` |
 
 ---
+<<<<<<< HEAD
+=======
+=======
+## 🎬 Technologies
+
+- **Next.js 14** - React Framework
+- **Framer Motion 11** - Animation Library
+- **Styled Components 6** - CSS-in-JS
+- **TypeScript** - Type Safety
+- **React Hook Form** - Form Management
+- **Zod** - Schema Validation
+- **i18next** - Internationalization
+=======
+---
+>>>>>>> 116becc (Update README.md)
+
+## 📦 Project Structure
+
+```
+src/
+├── components/
+│   ├── animations/        # Reusable animation components
+│   │   ├── FadeIn.tsx
+│   │   ├── ScaleIn.tsx
+│   │   └── StaggerContainer.tsx
+│   ├── button.tsx         # Enhanced button component
+│   ├── navbar.tsx         # Animated navigation
+│   ├── form.tsx           # Interactive form
+│   └── technology-card.tsx
+├── app/
+│   ├── (home)/           # Home page with animations
+│   ├── about/            # About page with timeline
+│   ├── projects/         # Projects grid with cards
+│   └── contact/          # Contact form
+└── themes/               # Light/Dark theme configuration
+```
+>>>>>>> 1d425de (feat(*): major portfolio update with UI improvements and new content)
+>>>>>>> 63d6691 (Update README.md)
+
+---
+
+## 🎨 Color Reference
+
+| Color        | Hex       |
+| ------------ | --------- |
+| Purple       | `#7B2CBF` |
+| Purple Hover | `#9333EA` |
+| Black        | `#000000` |
+| Dark         | `#1C1C21` |
+| Gray         | `#343A40` |
+| Light Gray   | `#ADB5BD` |
+| White        | `#FFFFFF` |
+
+---
 
 ## 🎯 Performance
 
@@ -95,6 +154,19 @@ src/
 
 ---
 
+<<<<<<< HEAD
 [View Portfolio →](https://mfelipesilva-v2.vercel.app/)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+[View Portfolio →](https://mfelipesilva-v2.vercel.app/)
+
+=======
+>>>>>>> 1d425de (feat(*): major portfolio update with UI improvements and new content)
+=======
+[View Portfolio →](https://mfelipesilva-v2.vercel.app/)
+
+>>>>>>> 116becc (Update README.md)
+>>>>>>> 63d6691 (Update README.md)
 **Developed with ❤️ by Mauricio Felipe Silva**
